@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  /* sheaird style */
+  .disply-flex{
+    display: flex;
+  }
+  .btn-prymari{
+    height: 50px;
+    width:197px;
+    border-radius: 12px;
+    background-color:rgba(17, 17, 17, 1) ;
+    font-size: 1.25rem;
+    font-weight:700 ;
+    color: rgb(255, 255, 255);
+
+  }
+  .header{
+    width: 1440px;
+  }
+  .font-color-1{
+    color: rgb(254, 163, 1);
+  }
+  .font-color-2{
+    color: rgb(1, 172, 253);
+  }
+  .font-color-3{
+    color: rgb(5, 212, 223);
+  }
+  .font-color-4{
+    color: rgb(93, 88, 239);
+  }
+
+  /* header style */
+    .header{
+        width: 1440px;
+        margin: 20px auto;
+    }
+  /* navebar releted styles */
+.navbar{
+ justify-content: space-between;
+ align-items: center;
+ height: 102px;
+}
+.nav-school{
+    font-weight: 700;
+    font-size: 2rem;
+    margin: auto 0;
+    text-align: center;
+    padding-left: 18px;
+}
+.nav-item{
+ list-style: none;
+ margin-right: 32px;
+
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 1.25rem;
+font-weight: 500;
+}
+.nav-btn{
+    background: rgb(254, 163, 1);
+    width: 197px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+}
+
+/* Empowering section style */
+.empowering-larn{
+  gap: 50px;
+}
+.empowering-title{
+  margin:121px auto ;
+  
+}
+.empowering-h4{
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.empowering-p{
+  color: rgb(17, 17, 17);
+  font-size: 1.56rem;
+  font-weight: 400;
+}
+.empowering-description{
+  
+}
+
+
+@media screen and (max-width:576px) {
+
+    .nav-link, .nav-school, .nav-btn{
+        display: none;
+    }
+    .header {
+        width: auto;
+    }
+    .thiri{
+        padding: 10px;
+    }
+    .navbar{
+        border-bottom: 3px solid rgba(254, 163, 1, 1);
+    }
+    .empowering-larn{
+      flex-direction: column;
+    }
+  
+    .empowering-description{
+      order: -1;
+      margin-top: 20px;
+      width: 100%;
+    }
+    .empowering-title{
+      order: 1;
+      margin-top: -0px;
+      text-align: center;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:1920px) {
+     .thiri{
+        display: none;
+     } 
+}
+
+
