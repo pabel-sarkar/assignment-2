@@ -41,7 +41,7 @@
   /* header style */
     .header{
         width: 1440px;
-        margin: 20px auto;
+        margin: 0 auto;
     }
   /* navebar releted styles */
 .navbar{
@@ -78,62 +78,257 @@ font-weight: 500;
 }
 
 /* Empowering section style */
-.empowering-larn{
-  gap: 50px;
+.Empowering-section{
+gap: 50px;
+border: 2px solid tomato;
 }
-.empowering-title{
-  margin:121px auto ;
+.Empowering-title{
+  border: 2px solid tomato;
+  padding: 121px 0;
+}
+.Empowering-h4{
+font-size: 3.5rem;
+font-weight: 700;
+margin: 0;
+}
+.Empowering-p{
+font-size: 1.56rem;
+font-weight: 400;
+color: rgb(17, 17, 17); 
+}
+/* Standard Curriculum styles */
+.curriculum-h4{
+ font-weight: 700;
+ font-size: 2.87rem;
+ color: rgba(0, 0, 0, 1);
+ text-align: center;
+}
+.kinder-container{
+border: 2px solid red;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 28px;
+}
+.Kinder-card{
+  text-align: center;
+ align-items: center;
+}
+.card-text{
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(222, 245, 255),
+  rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
   
 }
-.empowering-h4{
+.card-roted{
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(255, 244, 220),
+  rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  
+}
+.card-line{
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(238, 225, 255),
+  rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.Kinder-h5{
+ font-size: 1.5rem;
+ font-weight: 700;
+ color: rgba(32, 32, 32, 1);
+}
+.Kinder-p{
+  color: rgb(128, 128, 128);
+  font-weight: 500;
+}
+.Kinder-btn{
+  font-size: 1rem;
   font-weight: 700;
-  font-size: 3.5rem;
+  border: none;
+  background-color: white;
 }
-.empowering-p{
-  color: rgb(17, 17, 17);
-  font-size: 1.56rem;
-  font-weight: 400;
+
+.tutton-{
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+  margin-top: 80px;
+  gap: 11px;
 }
-.empowering-description{
-  
+.button-flas{
+  border: 2px solid lightcoral;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color:orange;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color:rgba(255, 255, 255, 1) ;
+ 
 }
 
 
+
+.disply{
+  display:none ;
+ 
+
+}
+
+
+/* Our Stories styes */
+
+.main-part{
+  background: url(image),linear-gradient(0.00deg,
+  rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.Stories-section{
+display: flex;
+gap: 18px;
+
+}
+.full-height{
+text-align: center;
+background: rgb(255, 255, 255);
+}
+.full-height-img{
+border-top-right-radius: 16px;
+border-top-left-radius: 16px;
+width: 100%;
+}
+.full-height-btn{
+height: 47px;
+width: 174px;
+border-radius: 47px;
+background-color: rgba(60, 216, 232, 1);
+font-weight: 500 ;
+margin-left: -300px;
+margin-top: -30px;
+border: none;
+}
+.full-height-h5{
+font-size: 1.5rem;
+font-weight: 700;
+color: rgba(0, 0, 0, 1);
+}
+.full-height-p{
+color: rgba(102, 102, 102, 1);
+font-weight: 100%;
+}
+
+
+.bannrer-contant{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19px;
+  text-align: center;
+}
+
+.bannner-card{
+  border-radius: 16px;
+  max-width: 290px;
+  background: rgb(255, 255, 255);
+}
+.baner-img{
+ border-top-right-radius: 16px;
+ border-top-left-radius: 16px;
+}
+.banner-btn{
+height: 38px;
+width: 174;
+border-radius: 47px;
+background-color: rgba(149, 178, 38, 1);
+font-weight: 400;
+color: rgba(255, 255, 255, 1);
+border: none;
+
+}
+.banner-p{
+font-weight: 700;
+color: rgba(0, 0, 0, 1);
+}
+.button-bac{
+  background-color:rgba(93, 88, 240, 1) ;
+}
+#banner-badge{
+ margin-top: -50px;
+ margin-left: -30px
+}
+.button-lasted-b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 20px 0 70px 0;
+ 
+}
+.button-lasted{
+  height: 50px;
+  width: 197px;
+  background: rgb(17, 17, 17);
+  border-radius: 12px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 1.25re;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
 @media screen and (max-width:576px) {
 
-    .nav-link, .nav-school, .nav-btn{
-        display: none;
+   .nav-link, .nav-school, .nav-btn{
+        display:none;
     }
     .header {
-        width: auto;
+         width: auto; 
     }
     .thiri{
-        padding: 10px;
+      padding: 20px;
     }
     .navbar{
         border-bottom: 3px solid rgba(254, 163, 1, 1);
     }
-    .empowering-larn{
+    .Empowering-section{
       flex-direction: column;
-    }
-  
-    .empowering-description{
-      order: -1;
-      margin-top: 20px;
-      width: 100%;
-    }
-    .empowering-title{
-      order: 1;
-      margin-top: -0px;
       text-align: center;
     }
-}
+    .Empowering-img{
+      order: -1;
+      padding-top: 20px;
+     }
+     .Empowering-title{
+      order: 1;
+      padding-top: 0;
+     }
+     .kinder-container{
+      grid-template-columns: repeat(1, 1fr);
+     }
+    
+  }
+
+
+
+  @media screen and (max-width:576px){
+    .disply-highte{
+      display: none;
+    }
+    .bannner-card{
+     width: 250px;
+   
+    }
+    .baner-img{
+      width: 100%;
+    }
+  }
 
 
 @media screen and (min-width:576px) and (max-width:1920px) {
      .thiri{
         display: none;
      } 
+  
 }
 
 
