@@ -171,12 +171,6 @@ gap: 28px;
 
 
 
-.disply{
-  display:none ;
- 
-
-}
-
 
 /* Our Stories styes */
 
@@ -186,7 +180,7 @@ gap: 28px;
 }
 .Stories-section{
 display: flex;
-gap: 18px;
+
 
 }
 .full-height{
@@ -276,6 +270,58 @@ color: rgba(0, 0, 0, 1);
   line-height: 30px;
   letter-spacing: 0%;
 }
+
+
+
+/* footer styles section */
+.bg-color{
+  background: rgb(1, 172, 253);
+}
+.footer-content{
+display: flex;
+justify-content: space-between;
+}
+.footer-container{
+ align-items: center;
+}
+
+.education{
+  color: rgb(255, 255, 255);
+  font-size:2.63rem;
+  font-weight: 700;
+}
+.education-p{
+  color: rgb(255, 255, 255);
+  font-size:1.25rem;
+  font-weight: 400;
+}
+.about-School-h5{
+  color: rgb(255, 255, 255);
+  font-size:1.5rem;
+  font-weight: 700;
+  margin: 45px 0;
+}
+.about-content{
+ padding-left: 0px;
+}
+.about-link{
+   list-style: none;
+   padding-bottom: 37px;
+}
+.about-link-li{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.keep-h5{
+  color: rgb(255, 255, 255);
+  font-size:1.625rem;
+  font-weight: 700;
+}
+
+
+
 @media screen and (max-width:576px) {
 
    .nav-link, .nav-school, .nav-btn{
@@ -320,6 +366,10 @@ color: rgba(0, 0, 0, 1);
     }
     .baner-img{
       width: 100%;
+    }
+    .footer-content{
+      flex-direction: column;
+      margin: 20px;
     }
   }
 
